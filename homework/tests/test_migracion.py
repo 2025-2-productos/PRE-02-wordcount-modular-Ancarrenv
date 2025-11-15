@@ -1,7 +1,10 @@
 import os
 
+from ..src.wordcount import main
+
 
 def test_migracion():
+    main()  ## por que adentro de la funcion?
 
     if not os.path.exists("data/output/results.tsv"):  ## si el archivo existe
         raise FileNotFoundErrorer("El archivo results.tsv no existe en data/output/")
