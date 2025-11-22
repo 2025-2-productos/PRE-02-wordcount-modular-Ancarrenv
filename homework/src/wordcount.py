@@ -12,7 +12,7 @@ def main():
 
     if len(sys.argv) != 3:
         print("Usage: python -m homework <input_folder> <output_folder>")
-        sys.exit(1)
+        # sys.exit(1)
 
     input_folder = sys.argv[1]  ## si es cero wordcount.py es el nombre del
     ##programa y si pasa el 1 pasa el primer argumento que le pasas por consola
